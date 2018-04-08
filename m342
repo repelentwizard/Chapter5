@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class m343 {
+
+	public static void main(String [ ] args)
+
+    
+		{
+Scanner s = new Scanner(System.in);
+System.out.print("Enter two amounts of extensions (press enter after each)  ");
+int num1 = s.nextInt();
+int num2 = s.nextInt();
+extension(num1,num2);	
+extension2(num1,num2);
+}	
+
+public static void extension(int numb1,int numb2)
+{
+int total=numb1+numb2;
+System.out.print("\n"+total);	
+}
+
+public static void extension2(int numbe1,int numbe2)
+{
+int total=numbe1*numbe2;
+System.out.print("\n"+total);	
+}}
