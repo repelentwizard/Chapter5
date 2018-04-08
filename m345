@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+import javax.print.DocFlavor.STRING;
+public class m345{
+public static void main(String [ ] args){
+Scanner s = new Scanner(System.in);
+System.out.print("Enter a number");
+int number = s.nextInt();
+money(number);
+}
+
+public static void money(int num2)
+{
+	
+for(int num1=0;num1<=num2;num1++)
+{	
+int num3=num2+num1;	
+System.out.print(num3);	
+}}}
