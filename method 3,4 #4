@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+import javax.print.DocFlavor.STRING;
+public class m44 {
+	
+	
+	public static void main(String [ ] args){
+	Scanner s = new Scanner(System.in);
+	System.out.print("how many days");
+	int days = s.nextInt();
+	money(days);
+	}
+
+	public static void money(int due)
+	{
+	int owe=due*15;	
+	System.out.print("You owe "+owe+" cents. ");
+	if(due>=10)
+	{
+	System.out.print("You might want an extension on that :)");
+
+	}}}
