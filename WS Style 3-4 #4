@@ -1,0 +1,27 @@
+package chapter5;
+import java.util.Scanner;
+public class ws344 {
+	public static void main(String [ ] args)
+
+    
+	{
+int num;
+Scanner s = new Scanner(System.in);
+System.out.print("Please input two numbers  ");
+
+int num1 = s.nextInt();
+int num2 = s.nextInt();
+extension(num1,num2);}
+	
+
+public static void extension(int num1,int num2)
+{
+int ext1=num1*-1;	
+int ext2=num2*-1;	
+
+int num3=(ext1+ext2)%2;
+int ext3=num3*-1;	
+
+System.out.print(ext3);	
+}}
+
