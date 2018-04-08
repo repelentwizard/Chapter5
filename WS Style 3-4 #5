@@ -1,0 +1,26 @@
+package chapter5;
+import java.util.Scanner;
+public class ws345 {
+	public static void main(String [ ] args)
+
+    
+	{
+Scanner s = new Scanner(System.in);
+System.out.print("Enter a number  ");
+int num = s.nextInt();
+extension1(num);
+extension2(num);	
+}	
+
+public static void extension1(int num)
+{
+int total=num*num;	
+System.out.print("\n"+total);	
+}
+
+public static void extension2(int num)
+{
+int total=num*num*num;	
+System.out.print("\n"+total);	
+}}
+
